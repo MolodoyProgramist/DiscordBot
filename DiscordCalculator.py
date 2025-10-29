@@ -3,7 +3,7 @@ from discord.ext import commands
 
 url = "https://api.intelligence.io.solutions/api/v1/chat/completions"
 
-TOKEN = 'MTM5NjI1MDE0NjcxNDQxOTMwMQ.GqoHT3.tKmoWwCRn6R1IMOIIaJQZhPNAeFmx5N6MhC1z4'
+TOKEN = 'TOKEN'
 PREFIX = '/'
 intents = discord.Intents().all()
 
@@ -33,3 +33,4 @@ async def calculator(ctx, *, expression):
     
 
 bot.run(TOKEN)
+
